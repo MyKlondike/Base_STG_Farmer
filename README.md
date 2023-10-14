@@ -1,6 +1,6 @@
 # Base_STG_Farmer
 
-# ENG
+# ENG:
 ___
 
 **Farm STG on Base**
@@ -47,7 +47,7 @@ FeedBacK ADDRESS (EVM): `0xe93081718a75818Be2eB1E1336c8c2AC930e44e0`
 
 **Chat for favorites 🗿:** [Telegram](https://t.me/Klondike_Talks)
 
-# RU 
+# RU:
 ___
 
 # Base_STG_Farmer
