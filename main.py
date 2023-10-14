@@ -1,6 +1,7 @@
 from web3 import Web3
 import time
 import random
+import sys
 from data import DATA
 from utils import WALLETS
 from abi import ABI_RouterETH, ABI_Ether_VaultLP, ABI_LPStakingTime, ABI_Router_base
@@ -276,6 +277,9 @@ def type_action(action, private_key, chain):
         amount = check_lpBalance(private_key, chain)
         print(f"Withdraw в процессе. Жду подтверждения транзакции.")
         instantRedeemLocal(private_key, chain, amount)
+    else:
+        print("Ошибка: Недопустимое значение переменной action. Программа завершена.")
+        sys.exit()
 
 
 def main():
